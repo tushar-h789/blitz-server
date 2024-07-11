@@ -9,3 +9,4 @@ exports.jwToken = (user, expiredIn) => {
     }
   );
 };
+ 
