@@ -155,3 +155,11 @@ exports.login = async (req, res) => {
     });
   }
 };
+
+
+exports.auth = async (req, res) => {
+  res.send("Auth");
+  console.log("this is validate user");
+  
+};
+
